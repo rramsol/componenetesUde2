@@ -64,7 +64,7 @@ class CardPage extends StatelessWidget {
       child: Column(
         children: <Widget>[
           FadeInImage(
-            image: NetworkImage('https://lh3.googleusercontent.com/proxy/vHFpBcRlKjLlld6fdbaqG4MnSS5LAxOiRYuZI36LRmIZOVVwKpsDE6lVU-maqGxs03yJr1Q5tfet3ZEfy6w5y9oxJiqQJOfGvewHR-EslkPFke1bsyke9Jfebfs8qZ0Fas2FeE3cP9rvR2nIOJVDPQ'),
+            image: NetworkImage('https://assets.entrepreneur.com/content/3x2/2000/20160503170129-civilwar.jpeg'),
             placeholder: AssetImage('assets/original.gif'),
             fadeInDuration: (Duration(seconds: 1)),
             height: 300.0,
