@@ -9,6 +9,8 @@ class HomeTemp extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('ComponentesTemp'),
+        elevation: 25.0,
+        centerTitle: true,
       ),
       body: ListView(
         children: _crearItems()
@@ -22,11 +24,15 @@ class HomeTemp extends StatelessWidget {
     for (String opt in opciones) {
       final tempWidget = ListTile(
         title: Text(opt),
+        subtitle: Text('Cualquiet cosa'),
+        leading: Icon(Icons.account_balance_wallet),
+        trailing: Icon(Icons.keyboard_arrow_right),
+        onTap: (){},
       );
       lista..add(tempWidget)
-           ..add(Divider(thickness: 3.0,));
+           ..add(Divider(thickness: 2.0,));
     }
-    
+
     return lista;
   }//crearItems
 
